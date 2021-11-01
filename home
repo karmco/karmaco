@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<body>
+
+<h1>Karma Company</h1>
+<button onclick="document.location='contact-me.html'"> Contact Me
+</button>
+<p>Welcome to my art page. It is still very much a work in progress and I am
+  very new to this. I am hoping to have a fully functioning page to sell my
+  art on by the end of this class. Thanks for visiting! </p>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+height: 100%;
+margin: 0;
+}
+
+.bg {
+/* The image used */
+background-image: url('sky.jpg');
+
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+</style>
+</head>
+<body>
+
+<div class="bg"></div>
+
+</body>
+</html>
